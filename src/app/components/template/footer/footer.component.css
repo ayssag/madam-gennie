@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+.footer-group {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: right;
+    padding-left: 7px;
+}
