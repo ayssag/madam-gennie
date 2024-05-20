@@ -33,3 +33,7 @@
 .spacer {
    flex: 1 1 auto; 
 }
+
+.button-style {
+    font-family: Arial, Helvetica, sans-serif;
+}
