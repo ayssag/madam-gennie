@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatNavList } from '@angular/material/list';
-import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button'
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
     MatToolbarModule,
-    MatListModule,
-    MatNavList
+    MatButtonModule
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
